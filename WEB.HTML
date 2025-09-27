@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blooms & Petals - Your Local Flower Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ffb6c1; /* Light Pink */
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #ff8c94; /* Deeper Pink */
+            padding: 0.5em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background-image: url('https://via.placeholder.com/1200x400.png?text=Fresh+Flowers+Here');
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .section {
+            padding: 20px 0;
+        }
+        .section h2 {
+            text-align: center;
+            color: #ff69b4; /* Hot Pink */
+        }
+        .flower-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .flower-item {
+            flex-basis: 30%;
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .flower-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #ffb6c1;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Blooms & Petals</h1>
+        <p>Your destination for beautiful, fresh flowers.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+         <a href="#premium">premium</a>
+
+    </nav>
+
+    <div class="hero" id="home">
+        <h1>Beautiful Bouquets for Every Occasion</h1>
+        <p>Expertly crafted by our florists. Order now!</p>
+    </div>
+
+    <div class="container section" id="gallery">
+        <h2>Our Unique</h2>
+        <div class="flower-gallery">
+            <div class="flower-item">
+                <img src="IMG.JPG" alt="Bouquet of Roses">
+                <h3>Classic Rose Bouquet</h3>
+                <p>INR 500.00</p>
+            </div>
+            <div class="flower-item">
+                <img src="IMG1.JPG" alt="Bouquet of Lilies">
+                <h3>Elegant Lily Arrangement</h3>
+                <p>INR 600.00</p>
+            </div>
+            <div class="flower-item">
+                <img src="IMG2.JPG" alt="Sunflowers">
+                <h3>Cheerful Sunflower Mix</h3>
+                <p>INR 800.00</p>
+            </div>
+             <div class="flower-item">
+                <img src="IMG3.JPG" alt="SUM AND STEM">
+                <h3>Bouquet of Lilies</h3>
+                <p>INR 300.00</p>
+            </div>
+             <div class="flower-item">
+                <img src="img4JPG.jpg" alt="Bouquet of Lilies">
+                <h3>Blush of Love</h3>
+                <p>INR 600.00</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container section" id="about">
+        <h2>About Blooms & Petals</h2>
+        <p>We are a family-owned flower shop dedicated to providing the freshest flowers and the most creative floral designs. We believe every bouquet tells a story.</p>
+    </div>
+
+    <div class="container section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: ksaipriyakotini@gmail.com</p>
+        <p>Phone: 8895550479</p>
+        <p>Address: 123 SHANTI NAGAR MHOW,INDORE </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Blooms & Petals. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
